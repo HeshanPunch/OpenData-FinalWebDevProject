@@ -7,6 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="DSStyles.css">
     <script type="text/javascript" src="DSScripts.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;800&display=swap" rel="stylesheet">
+
+    
+    
 </head>
 <body>
     <header>DataSetHeader</header>
@@ -15,30 +22,30 @@
         <div class="searchFields">
             <table> 
                 
-            
-                <tr><td>School Name</td><td><input type="text" size="15" id="schoolName"></td></tr>
                 
-                <tr><td> <label for="schoolType">School Type</label> </td><td> <select name="schoolType" id="schoolType"> 
+                <td>School Name</td><td><input type="text" size="15" id="schoolName"></td>
+                
+                <td> <label for="schoolType">School Type</label> </td><td> <select name="schoolType" id="schoolType"> 
                     <option value="" disabled selected>Select</option>
                     <option value="elementary">Elementary</option>
                     <option value="juniorHigh">Junior High</option>
                     <option value="seniorHigh">Senior High</option>
                     <option value="postSecondary">Post Secondary</option> </select> </td>
-                </tr>
+                    
+                    
+                    <td>Address</td><td><input type="text" size="15" id="schoolAddress"></td></tr>
+                    
+                </table>
                 
-                <tr><td>Address</td><td><input type="text" size="15" id="schoolAddress"></td></tr>
-                
-            </table>
+            </div>
             
-        </div>
-        
-        <div class="searchResults" id="searchResults">
+            <div class="searchResults" id="searchResults">
+                
+                <table id="searchResultTable">
+                    
+                    
+                </table>
+            </div>
             
-            <table id="searchResultTable">
-                
-                
-            </table>
-        </div>
-        
-    </body>
-    </html>
+        </body>
+        </html>

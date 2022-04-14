@@ -1,0 +1,54 @@
+.searchResults table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchResults th, 
+.searchResults td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #4b4f55;
+    box-shadow: 1px 1px 1px #4b4f55 ;
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 80px;
+    text-align: center;
+    border-spacing: 4px;
+    border-collapse: separate;
+    height: 40px;
+
+    
+}
+
+.icon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.searchFields table{
+    width: 50%;
+    padding: 10px;
+    margin: 40px auto 40px auto;
+    border-bottom: 2px solid gray;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.icon img:hover {
+   border-bottom: 2px solid red;
+
+      
+}
+
+
+/*
+#B6DDCB #CDE2C3
+#F5DD93 #F5DD93
+#97D5D4 #5789C8
+
+font-family: 'Nunito Sans', sans-serif;
+
+
+*/
+    
