@@ -36,12 +36,12 @@
 }
 
 .icon img:hover {
-   border-bottom: 2px solid red;
-
-      
+   border-bottom: 2px solid red;    
 }
 
-
+#searchResults{
+    display: none;
+}
 /*
 #B6DDCB #CDE2C3
 #F5DD93 #F5DD93
