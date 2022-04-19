@@ -1,59 +1,18 @@
-/* JS for Final Project Par A
+/* JS for Final Project Part A
 Heshan Punchihewa
 2022-04-20 */
 
 //global vars for all methods
-let xmlobj = new XMLHttpRequest();
+//let xmlobj = new XMLHttpRequest();
+let data; //data from json
+
+//${subData.the_geom.coordinates[0]}
 
 
-//global fo user selection
-var userSelection;
+//loads JSON file and adds listeners on window load
+//window.onload=loadJson;
 
-const data1 = "schools";
-// const data2 = "XX";
-// const data3 = "YY";
-// const data4 = "ZZ";
-
-
-//loads function to make selection
-
-function schoolsFunction(){
-    
-    console.log("schoolsFunction() ")
-    //load xml
-    
-    xmlobj.onreadystatechange = function(){
-        if (xmlobj.readyState == 4 && xmlobj.status == 200) {
-            document.getElementById("form").innerHTML= xmlobj.responseText;
-            loadJsonSchools();
-        }
-    };
-    
-    xmlobj.open("GET", "schools.html", true);
-    xmlobj.send();
-}
-
-function trashFunction(){
-    console.log("trashFunction() " + userSelection)
-    //load xml
-    
-    xmlobj.onreadystatechange = function(){
-        if (xmlobj.readyState == 4 && xmlobj.status == 200) {
-            document.getElementById("form").innerHTML= xmlobj.responseText;
-            
-        }
-    };
-    
-    xmlobj.open("GET", "collectionSchedule.html", true);
-    xmlobj.send();
-}
-
-
-
-
-// when the user selects Schools
-function loadJsonSchools(){
-    console.log('loadJsonSchools');
+function loadJson(){
     document.getElementById("schoolName").addEventListener("keyup", function (){searchByName(this.value);},false);
     document.getElementById("schoolType").addEventListener("change", function (){searchByType(this.value);},false);
     document.getElementById("schoolAddress").addEventListener("keyup", function (){searchByAddress(this.value);},false);
@@ -182,5 +141,4 @@ function searchByAddress(userAddress){
     document.getElementById("searchResultTable").innerHTML=output;
     document.getElementById("searchResults").style.display = "block";
 }
-
 

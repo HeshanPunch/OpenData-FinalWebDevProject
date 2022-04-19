@@ -27,8 +27,8 @@
 }
 
 .searchFields table{
-    width: 50%;
-    padding: 10px;
+    width: 60%;
+    padding: 5px;
     margin: 40px auto 40px auto;
     border-bottom: 2px solid gray;
     font-family: 'Nunito Sans', sans-serif;
@@ -42,6 +42,7 @@
 #searchResults{
     display: none;
 }
+
 /*
 #B6DDCB #CDE2C3
 #F5DD93 #F5DD93
