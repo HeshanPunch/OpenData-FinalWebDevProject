@@ -23,11 +23,13 @@ function loadJsonTraffic(){
     
     xmlobj.open("GET", "https://data.calgary.ca/resource/k7p9-kppz.json", true);
     xmlobj.send();
+
+    
     
 }
 
 function searchByCamAddress(userAddress){
-    
+   
     let searchAddress = '';
     let output =  "<tr><th>Address</th> <th>Description</th> <th>Quadrant</th>  <th>Photo Preview</th> <th>Location</th></tr>";
     
@@ -50,7 +52,10 @@ function searchByCamAddress(userAddress){
         }
         
     }
+    
+    
     //output format as table
+    
     document.getElementById("searchResultTable").innerHTML=output;
     document.getElementById("searchResults").style.display = "block";
 }

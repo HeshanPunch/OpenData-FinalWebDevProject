@@ -59,6 +59,21 @@ function trafficFunction(){
     xmlobj.send();
 }
 
+function historicResFunction(){
+    console.log("Script historicResFunction() ")
+    //load xml
+    
+    xmlobj.onreadystatechange = function(){
+        if (xmlobj.readyState == 4 && xmlobj.status == 200) {
+            document.getElementById("form").innerHTML= xmlobj.responseText;
+            loadJsonHistoricRes();
+        }
+    };
+    
+    xmlobj.open("GET", "historicResource.html", true);
+    xmlobj.send();
+}
+
 
 
 
