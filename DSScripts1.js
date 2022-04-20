@@ -1,18 +1,12 @@
 /* JS for Final Project Part A
 Heshan Punchihewa
-2022-04-20 */
-
-//global vars for all methods
-//let xmlobj = new XMLHttpRequest();
-let data; //data from json
-
-//${subData.the_geom.coordinates[0]}
+2022-04-20 
+THIS IS FOR THE SCHOOLS DATASET*/
 
 
-//loads JSON file and adds listeners on window load
-//window.onload=loadJson;
-
-function loadJson(){
+// when the user selects Schools
+function loadJsonSchools(){
+    console.log('loadJsonSchools11');
     document.getElementById("schoolName").addEventListener("keyup", function (){searchByName(this.value);},false);
     document.getElementById("schoolType").addEventListener("change", function (){searchByType(this.value);},false);
     document.getElementById("schoolAddress").addEventListener("keyup", function (){searchByAddress(this.value);},false);
@@ -41,7 +35,7 @@ function searchByName(UserSchoolName){
         UserSchoolName = UserSchoolName.toLowerCase();
         let typeOfSchool ='unavailable';
         
-        if(searchName.startsWith(UserSchoolName)){
+        if(searchName.includes(UserSchoolName)){
             
             if(subData.postsecond === "Y"){
                 typeOfSchool = "Post Secondary";
@@ -123,7 +117,7 @@ function searchByAddress(userAddress){
             userAddress = userAddress.toLowerCase();
             let typeOfSchool ='unavailable';
             
-            if(searchAddress.startsWith(userAddress)){
+            if(searchAddress.includes(userAddress)){
                 
                 if(subData.postsecond === "Y"){
                     typeOfSchool = "Post Secondary";
@@ -141,4 +135,3 @@ function searchByAddress(userAddress){
     document.getElementById("searchResultTable").innerHTML=output;
     document.getElementById("searchResults").style.display = "block";
 }
-
