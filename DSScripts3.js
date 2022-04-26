@@ -47,7 +47,7 @@ function searchByCamAddress(userAddress){
                 <td>${subData.camera_location}</td> 
                 <td>${subData.camera_url.description}</td> <td>${subData.quadrant} </td>
                 <td><div class="icon"> <a href="${subData.camera_url.url}" target="_blank"><img src="images/cctv.png" alt="map icon"></a></div></td>
-                <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.point.coordinates[1]}%2C${subData.point.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+                <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.point.coordinates[1]}%2C${subData.point.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
             }
         }
         
@@ -81,7 +81,7 @@ function searchByCamDesc(userDesc){
                 <td>${subData.camera_location}</td> 
                 <td>${subData.camera_url.description}</td> <td>${subData.quadrant} </td>
                 <td><div class="icon"> <a href="${subData.camera_url.url}" target="_blank"><img src="images/cctv.png" alt="map icon"></a></div></td>
-                <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.point.coordinates[1]}%2C${subData.point.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+                <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.point.coordinates[1]}%2C${subData.point.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
             }
         }
         
@@ -107,7 +107,7 @@ function searchByCamQuad(userQuad){
             <td>${subData.camera_location}</td> 
             <td>${subData.camera_url.description}</td> <td>${subData.quadrant} </td>
             <td><div class="icon"> <a href="${subData.camera_url.url}" target="_blank"><img src="images/cctv.png" alt="map icon"></a></div></td>
-            <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.point.coordinates[1]}%2C${subData.point.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+            <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.point.coordinates[1]}%2C${subData.point.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
            
         }
         

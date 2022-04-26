@@ -8,14 +8,14 @@ let xmlobj = new XMLHttpRequest();
 
 //global fo user selection
 var userSelection;
-var data;
+
 
 
 //loads function to make selection
 
 function schoolsFunction(){
     
-    console.log("schoolsFunction() ")
+    console.log("schoolsFunction() ");
     //load xml
     
     xmlobj.onreadystatechange = function(){
@@ -30,7 +30,7 @@ function schoolsFunction(){
 }
 
 function trashFunction(){
-    console.log("Script 1 trashFunction() ")
+    console.log("Script 1 trashFunction() ");
     //load xml
     
     xmlobj.onreadystatechange = function(){
@@ -45,7 +45,7 @@ function trashFunction(){
 }
 
 function trafficFunction(){
-    console.log("Script 1 trafficFunction() ")
+    console.log("Script 1 trafficFunction() ");
     //load xml
     
     xmlobj.onreadystatechange = function(){
@@ -60,7 +60,7 @@ function trafficFunction(){
 }
 
 function historicResFunction(){
-    console.log("Script historicResFunction() ")
+    console.log("Script historicResFunction() ");
     //load xml
     
     xmlobj.onreadystatechange = function(){

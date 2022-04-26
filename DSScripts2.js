@@ -41,7 +41,7 @@ function searchTrashByAdd(userAddress){
             if(searchAddress.includes(userAddress)){
                 
                 
-                output += `<tr><td>${subData.address}</td> <td>${subData.community}</td> <td>${subData.collection_day} </td><td>${subData.commodity}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.latitude}%2C${subData.longitude}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+                output += `<tr><td>${subData.address}</td> <td>${subData.community}</td> <td>${subData.collection_day} </td><td>${subData.commodity}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.latitude}%2C${subData.longitude}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
             }
         }
         
@@ -68,7 +68,7 @@ function searchByTrashComm(userComm){
             if(searchComm.includes(userComm)){
                 
                 
-                output += `<tr><td>${subData.address}</td> <td>${subData.community}</td> <td>${subData.collection_day} </td><td>${subData.commodity}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.latitude}%2C${subData.longitude}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+                output += `<tr><td>${subData.address}</td> <td>${subData.community}</td> <td>${subData.collection_day} </td><td>${subData.commodity}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.latitude}%2C${subData.longitude}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
             }
         }
         

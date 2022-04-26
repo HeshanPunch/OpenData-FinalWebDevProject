@@ -44,7 +44,7 @@ function searchByName(UserSchoolName){
                 typeOfSchool = subData.grades;
             }
             
-            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
         }
         
     }
@@ -77,20 +77,20 @@ function searchByType(selectedType){
         if(subData.postsecond === "Y" && selectedType === "postSecondary"){
             typeOfSchool = "Post Secondary";
             
-            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
         }
         else if(subData.elem === "Y" && selectedType === "elementary") {
             typeOfSchool = subData.grades;
             
-            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
         }else if(subData.junior_h === "Y" && selectedType === "juniorHigh"){
             typeOfSchool = subData.grades;
             
-            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]} target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]} target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
         } else if(subData.senior_h === "Y" && selectedType === "seniorHigh"){
             typeOfSchool = subData.grades;
             
-            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+            output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
         }
         
         
@@ -126,7 +126,7 @@ function searchByAddress(userAddress){
                     typeOfSchool = subData.grades;
                 }
                 
-                output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`
+                output += `<tr><td>${subData.name}</td> <td>${subData.address}, ${subData.postal_cod}</td> <td>${subData.phone_no}</td>  <td>${typeOfSchool}</td> <td><div class="icon"> <a href="https://www.google.com/maps/search/?api=1&query=${subData.the_geom.coordinates[1]}%2C${subData.the_geom.coordinates[0]}" target="_blank"><img src="images/map.png" alt="map icon"></a></div></td> </tr>`;
             }
         }
         
