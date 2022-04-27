@@ -15,15 +15,18 @@
 <h2>Search Schools</h2>
 <br>Calls for schools data (JSON) from City of Calgary
 <br>Search by different categories, view pin on google maps
-<div align="center"><img src="https://i.imgur.com/sPmI1zI.gif"></img></div>
+
 
 
 <h2>Search Traffic Cams</h2>
 <br>Calls for traffic cams data (JSON) from City of Calgary
 <br>Search by different categories, view pin on google maps, view photo (updated live-ish by City)
 <br>This project also has 2 more datasets - waste schedule, and historic resources, with similar funcionalities
-<div align="center"><img src="https://i.imgur.com/LxmDdPY.gif"></img></div>
 
+
+<h2>Demo</h2>
+<div align="center"><img src="https://i.imgur.com/LxmDdPY.gif"></img></div>
+<div align="center"><img src="https://i.imgur.com/sPmI1zI.gif"></img></div>
 
 <h2>Installation</h2>
 
