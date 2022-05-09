@@ -26,7 +26,7 @@
 
 <h2>Demo</h2>
 <div align="center"><img src="https://i.imgur.com/LxmDdPY.gif"></img></div>
-<div align="center"><img src="https://i.imgur.com/sPmI1zI.gif"></img></div>
+
 
 <h2>Installation</h2>
 
